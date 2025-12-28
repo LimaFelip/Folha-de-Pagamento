@@ -18,6 +18,15 @@ Este é um software interno para gestão de funcionários e processamento de fol
         4. Implementação(Em progresso)  
         5. Manutenção(Planejado)  
 ```
+# 🛠️ Tecnologias Utilizadas
+
+   - Linguagem: Python 3.10.1
+
+   - Interface Gráfica: PyQt5
+
+   - Banco de Dados: SQLite3
+
+   - Documentação Legal: Consultoria via regulamentos da Previdência e CLT.
 
 # ⚖️ Base Legal e Regras de Negócio
 O sistema é norteado pela legislação brasileira vigente:
@@ -84,6 +93,7 @@ Indicadores Processados:
     source venv/bin/activate no macOS/Linux
 
 3. Para a Biblioteca GUI 
+
     pip install PyQt5
 
 # 💻 Para execultar em seu sistema local.
