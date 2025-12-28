@@ -1,7 +1,15 @@
+# Ignorar gitignore
+.gitignore
 # Banco de dados SQLite
 data\
-
+src\backend\database_crud.py
 # Ignorar o ambiente virtual
 venv/
 env/
+# Ignorar arquivos de cache do Python
+__pycache__/
+
+# Ignorar arquivos de validação
+src\backend\validations.py
+
 
