@@ -1,54 +1,40 @@
-# ----- Sistema de interno dos funcionarios -----
+# 📄 Sistema de Gestão de Folha de Pagamento   
+   
 
-IMPORTANTE! O projeto está sendo desenvolvido de forma simples e robusta, seguindo as diretrizes Engenharia de Software para fins de estudo e comercial escalavel em python 3.10.1. 
-    SDLC - Software Development Life Cycle(Ciclo de vida de desenvolvimento de software)
-        1. Definição de Objetivos ✔️
-        2. Levantamento e Análise de Requisitos ✔️
-            1. Requisitos Funcionais ✔️
-            2. Requisitos Não Funcionais ✔️
-            3. Saída✔️
-        3. Design e Arquitetura 
-            1. Arquitetura de Pastas ✔️
-            2. Modelagem de Dados
-            3. Design de UI
+# Sobre   
+Este é um software interno para gestão de funcionários e processamento de folha de pagamento. O projeto foi desenvolvido com foco em escalabilidade comercial e robustez, aplicando as diretrizes de Engenharia de Software.
 
-        4. Implementação
-        5. Manutenção
-            
-# ----> 1. Definição de Objetivos
-    Decreto 3.048/1999  Regulamento da Previdência Social 
-O artigo 225 do Decreto determina que todas as empresas elaborem mensalmente sua folha, incluindo:
+```Progresso:
+    SDLC - Software Development Life Cycle(Ciclo de vida de desenvolvimento de software)  
+        1. Definição de Objetivos ✔️  
+        2. Levantamento e Análise de Requisitos ✔️  
+            1. Requisitos Funcionais ✔️  
+            2. Requisitos Não Funcionais ✔️    
+        3. Design e Arquitetura(Em progresso)   
+            1. Arquitetura de Pastas ✔️  
+            2. Modelagem de Dados 🏗️ 
+            3. Design de UI  🏗️
 
-* Todos os segurados empregados, contribuintes individuais e autônomos vinculados.
-* Todas as parcelas pagas, devidas ou creditadas a cada um deles.
-* Esse dispositivo garante que o governo possa fiscalizar corretamente a arrecadação e combater a sonegação.
-        fonte(https://inventsoftware.com.br/gestao-de-pessoas/calculo-folha-de-pagamento-brasil-2026)
+        4. Implementação(Em progresso)  
+        5. Manutenção(Planejado)  
+```
+
+# ⚖️ Base Legal e Regras de Negócio
+O sistema é norteado pela legislação brasileira vigente:
+
+* Decreto 3.048/1999 (Art. 225): Obrigatoriedade da elaboração mensal da folha, incluindo todos os segurados e parcelas devidas.
+
+* Artigo 462 da CLT: "ao empregador é vedado efetuar qualquer desconto nos salários do empregado,
+salvo quando este resultar de adiantamentos, de dispositivos de lei ou de contrato coletivo".
+
+Indicadores Processados:
+* Encargos Sociais: INSS, IRRF, FGTS.
+* Benefícios e Proventos: Salário Base, VR, Férias, 13º Salário.
+
 ----------------------------------------------------------------------------------
-no Artigo 462 da Constituição Federal, da Consolidação das Leis do Trabalho,
-"ao empregador é vedado efetuar qualquer desconto nos salários do empregado,
-salvo quando este resultar de adiantamentos, de dispositivos de lei ou de contrato coletivo"
------------------------------------------------------------------------------------
-    Data de Admição - data_admicao
-    Salario Base/Bruto - salario_base
-    Instituto Nacional do Seguro Social - INSS
-    Imposto de Renda Retido na Folha - IRRF
-    Fundo de Garantia do Tempo de Serviço - FGTS
 
-    Salario - salario
-    Vale Refeição - VR
-    Ferias - ferias
-    13º Salario - salario_13
-
-
-Gerar Relatorio Geral
-   salvar no Banco de dados
-        Emitir Relatorio para:
-            visualização pdf
-            Impressão
-
-Gerar Relatorio Selecionando Data
-(No mês escolhido gerar Salario, valor total do VR, valor das Ferias e data de vencimento e o proximo 13º)
-
+# ----> Informações Administrativas e funções
+```
 # ----> Sistema de autenticação
     * Cadastro de login
     * login
@@ -86,7 +72,9 @@ Gerar Relatorio Selecionando Data
         1.2 Emitir Relatorio para:
             visualização pdf
             Impressão
-    
+            Gerar Relatorio Selecionando Data
+(No mês escolhido gerar Salario, valor total do VR, valor das Ferias e data de vencimento e o proximo 13º)
+```    
 # 📌 Para instalar Dependências em Python
 1. Primeiro, certifique-se de instalar python no seu sistema local.
  [Clique aqui para baixar Python](https://www.python.org/downloads/)
@@ -99,6 +87,7 @@ Gerar Relatorio Selecionando Data
 # 💻 Para execultar em seu sistema local.
 
 # ---->Arquiteutra de Pastas
+```
 folha_pagamento/
 ├── venv/
 ├── data/
@@ -121,31 +110,20 @@ folha_pagamento/
 ├── requirements.txt
 └── .gitignore
 
-
-----> Informações Administrativas de pagamentos
-
-----------------------------------------------------------------------------------
-no Artigo 462 da Constituição Federal, da Consolidação das Leis do Trabalho,
-"ao empregador é vedado efetuar qualquer desconto nos salários do empregado,
-salvo quando este resultar de adiantamentos, de dispositivos de lei ou de contrato coletivo"
------------------------------------------------------------------------------------
-    Data de Admição - data_admicao
-    Salario Base/Bruto - salario_base
-    Instituto Nacional do Seguro Social - INSS
-    Imposto de Renda Retido na Folha - IRRF
-    Fundo de Garantia do Tempo de Serviço - FGTS
-
-    Salario - salario
-    Vale Refeição - VR
-    Ferias - ferias
-    13º Salario - salario_13
+```
 
 
-Gerar Relatorio Geral
-   salvar no Banco de dados
-        Emitir Relatorio para:
-            visualização pdf
-            Impressão
+<a id="Creditos"></a>
+## 🏆 Créditos
+> Todo o projeto foi feito por...
+  
+<br /> 
 
-Gerar Relatorio Selecionando Data
-(No mês escolhido gerar Salario, valor total do VR, valor das Ferias e data de vencimento e o proximo 13º)
+<div > 
+
+| [<img src="https://avatars.githubusercontent.com/u/139656375?v=4" width=300><br><sub> Felipe Lima </sub>](https://www.linkedin.com/in/felipenlim/) | *** Oi, Se você chegou até aqui, acredito que gostou do meu projeto, nesse caso temos algo em comum, sendo assim que tal conversamos um pouco? Entra em contato no linkedin *** | 
+|---|---|
+
+</div> 
+  
+<br /> 
