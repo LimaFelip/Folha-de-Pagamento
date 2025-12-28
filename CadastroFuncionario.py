@@ -1,3 +1,6 @@
+
+import sqlite3
+
 # cadastro de funcionarios
 print()
 print('============== RELATORIO DO FUNCIONARIO ==============  ''\n')

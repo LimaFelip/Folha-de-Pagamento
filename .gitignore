@@ -1,0 +1,7 @@
+# Banco de dados SQLite
+data\
+
+# Ignorar o ambiente virtual
+venv/
+env/
+
