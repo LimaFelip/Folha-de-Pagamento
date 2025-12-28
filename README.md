@@ -76,10 +76,12 @@ Indicadores Processados:
 (No mês escolhido gerar Salario, valor total do VR, valor das Ferias e data de vencimento e o proximo 13º)
 ```    
 # 📌 Para instalar Dependências em Python
-1. Primeiro, certifique-se de instalar python no seu sistema local.
+1. Primeiro, certifique-se de instalar Python 3.10.1 no seu sistema local.
  [Clique aqui para baixar Python](https://www.python.org/downloads/)
 
-2. Vá até sua pasta de código e no terminal execute.
+2. Vá até sua pasta de código e no terminal, ativar o ambiente virtual. 
+    venv\Scripts\activate.ps1  no Windows powershell
+    source venv/bin/activate no macOS/Linux
 
 3. Para a Biblioteca GUI 
     pip install PyQt5
